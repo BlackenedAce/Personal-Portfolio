@@ -66,6 +66,38 @@ nav li:hover {
   color: #3d7fc6;
 }
 
+#skill-section {
+  padding: 50px;
+  
+  background-color: #303841;
+}
+
+#skill-section h2 {
+    text-align: center;
+  padding: 10vh 0px 0px 0px;
+  font-size: 45px;
+  text-decoration-line: underline;
+  color: #f0f0f0;
+  
+}
+
+#skill-section img {
+  width:60px;
+}
+
+.iconify {
+  font-size:60px;
+}
+
+  #skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+   padding: 50px;
+}
+
 #projects {
   background-color: #3d7fc6;
   background-image: linear-gradient(315deg, #3d7fc6 0%, #28313b 90%);
@@ -156,12 +188,12 @@ img {
 }
 
 .socials {
- display:grid ;
-  padding: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-  grid-row-gap: 40px;
-  grid-column-gap: 10px; 
+ display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
+  gap: 40px;
+  padding:50px;
 }
 
 #contact li {
@@ -199,6 +231,28 @@ img {
 
 @media only screen and (max-width: 600px) {
 
+  /*Nav bar*/
+  nav {
+    15px
+  }
+  
+  nav li {
+    padding: 10px 15px;
+  }
+  
+  /*Skill section*/
+#skill-section img {
+  width:48px;
+}
+  .iconify {
+  font-size:40px;
+    background-color: #F25F4A;
+}
+
+  #skills {
+  gap: 40px;
+}
+  
   /*Project header*/
   #projects h2 {
     font-size: 30px;
