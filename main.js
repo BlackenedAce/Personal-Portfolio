@@ -31,4 +31,3 @@ function showAndHide () {
 }
 button.addEventListener("click",showAndHide);
 
-`
