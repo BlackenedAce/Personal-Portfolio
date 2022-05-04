@@ -87,6 +87,7 @@ nav li:hover {
 
 .iconify {
   font-size:60px;
+  color: #F25F4A;
 }
 
   #skills {
@@ -165,6 +166,40 @@ img {
   box-shadow: 0 8px 12px 0 #36096d;
   text-decoration-line: underline;
 }
+
+
+#one {
+  display:none;
+}
+#two {
+  display:none;
+}
+#three {
+  display:none;
+}
+#four {
+  display:none;
+}
+
+
+#button {
+  background-color:  #37d5d6;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 800px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#button-container {
+  padding:10px;
+  text-align: center;
+}
+
+#button:hover {
+  background-color: #36099d;
+}
+
 
 
 #contact {
@@ -246,7 +281,6 @@ img {
 }
   .iconify {
   font-size:40px;
-    background-color: #F25F4A;
 }
 
   #skills {
