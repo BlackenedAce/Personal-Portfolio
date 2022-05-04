@@ -88,6 +88,7 @@ nav li:hover {
 .iconify {
   font-size:60px;
   color: #F25F4A;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
 }
 
   #skills {
