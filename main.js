@@ -1,6 +1,34 @@
 import './style.css'
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+let pointer = 0;
+const button = document.querySelector("#button");
+
+const one = document.querySelector("#one");
+
+const two = document.querySelector("#two");
+
+const three = document.querySelector("#three");
+
+const four = document.querySelector("#four");
+
+function showAndHide () {
+  if (pointer == 0) {
+    pointer= 1;
+   button.innerText = "Show Less";
+  one.style.display= "inherit"
+  two.style.display= "inherit"
+  three.style.display= "inherit"
+    four.style.display= "inherit"
+  }
+  else if (pointer == 1) {
+    pointer = 0;
+    button.innerText = "Show All";
+  one.style.display= "none"
+  two.style.display= "none"
+  three.style.display= "none"
+    four.style.display= "none"
+  }
+}
+button.addEventListener("click",showAndHide);
+
 `
