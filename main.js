@@ -13,6 +13,8 @@ const four = document.querySelector("#four");
 
 const five = document.querySelector("#five");
 
+const six = document.querySelector("#six");
+
 function showAndHide () {
   if (pointer == 0) {
     pointer= 1;
@@ -22,6 +24,7 @@ function showAndHide () {
   three.style.display= "inherit"
     four.style.display= "inherit"
     five.style.display= "inherit"
+    six.style.display= "inherit"
   }
   else if (pointer == 1) {
     pointer = 0;
@@ -31,6 +34,7 @@ function showAndHide () {
   three.style.display= "none"
     four.style.display= "none"
     five.style.display= "none"
+    six.style.display= "none"
   }
 }
 button.addEventListener("click",showAndHide);
