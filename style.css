@@ -169,47 +169,6 @@ img {
 }
 
 
-#one {
-  display:none;
-}
-#two {
-  display:none;
-}
-#three {
-  display:none;
-}
-#four {
-  display:none;
-}
-
-#five {
-  display:none;
-}
-
-#six {
-  display:none;
-}
-
-
-#button {
-  background-color:  #37d5d6;
-  padding: 10px;
-  font-size: 15px;
-  font-weight: 800px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-#button-container {
-  padding:10px;
-  text-align: center;
-}
-
-#button:hover {
-  background-color: #36099d;
-  box-shadow: 0 5px 0 rgb(0 0 0 / 40%);
-}
-
 
 
 #contact {
